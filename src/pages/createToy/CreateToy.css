@@ -1,0 +1,93 @@
+/* Container styling */
+.create-toy-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f8fa;
+  padding: 20px;
+}
+
+/* Form styling */
+.create-toy-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Form header */
+.create-toy-form h2 {
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Labels and input fields */
+.create-toy-form label {
+  font-size: 16px;
+  color: #333;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.create-toy-form input[type="text"],
+.create-toy-form input[type="number"],
+.create-toy-form textarea,
+.create-toy-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s;
+}
+
+.create-toy-form input[type="text"]:focus,
+.create-toy-form input[type="number"]:focus,
+.create-toy-form textarea:focus,
+.create-toy-form select:focus {
+  border-color: #007bff;
+}
+
+/* Textarea */
+.create-toy-form textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+/* Checkbox */
+.create-toy-form input[type="checkbox"] {
+  margin-right: 8px;
+  transform: scale(1.2);
+}
+
+/* Message styling */
+.message {
+  text-align: center;
+  padding: 10px;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+/* Button styling */
+.create-toy-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.create-toy-button:hover {
+  background-color: #218838;
+}

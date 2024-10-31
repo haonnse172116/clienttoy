@@ -1,0 +1,32 @@
+/* src/pages/MyRequests.css */
+
+.my-requests-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .my-requests-container h2 {
+    text-align: center;
+    color: #1e90ff;
+  }
+  
+  .requests-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .request-card {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .request-card p {
+    margin: 5px 0;
+    color: #333;
+  }
+  

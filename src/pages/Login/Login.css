@@ -1,0 +1,77 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 50px;
+  }
+  
+  .login-form {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    color: #1e90ff; /* Dodger blue for the heading */
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .login-form input {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+  }
+  
+  .login-form .login-button {
+    background-color: #1e90ff; /* Dodger blue */
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .login-form .login-button:hover {
+    background-color: #1c86ee;
+  }
+  
+  .message {
+    margin-top: 15px;
+    color: #4caf50;
+  }
+  .signup-prompt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px; /* Space above the text */
+    font-size: 14px;
+    color: #555; /* Subtle color for prompt text */
+  }
+  
+  /* Link styling */
+  .signup-prompt a {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px; /* Small space between the text and link */
+  }
+  
+  .signup-prompt a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline;
+  }

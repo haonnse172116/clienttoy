@@ -1,0 +1,15 @@
+.footer {
+    background-color: #1e90ff;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 100%;
+    margin-top: auto; /* Đẩy footer xuống cuối nếu có không gian trống */
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  

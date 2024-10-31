@@ -1,0 +1,70 @@
+.all-requests-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: white;
+  }
+  
+  .user-requests {
+    margin-bottom: 40px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-requests h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .total-price {
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .requests-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .request-card {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .request-card p {
+    margin: 5px 0;
+  }
+  
+  .status-update-group {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .approve-all-button, .reject-all-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .approve-all-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .reject-all-button {
+    background-color: #f44336;
+    color: white;
+  }
+  

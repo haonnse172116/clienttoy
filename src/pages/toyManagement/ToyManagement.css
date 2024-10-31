@@ -1,0 +1,108 @@
+/* Container styling */
+.toy-management-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #e271d6; /* Light background color */
+  }
+  .toy-management-container h2{
+    color: white!important;
+  }
+  /* Table styling */
+  .toy-table {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Table header styling */
+  .toy-table th {
+    padding: 12px 15px;
+    background-color: #007bff; /* Header background color */
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* Table rows styling */
+  .toy-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  /* Make alternating rows slightly different */
+  .toy-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Input fields styling in table cells */
+  .toy-table input,
+  .toy-table select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  /* Action buttons styling */
+
+  .action-buttons {
+    display: flex;
+  }
+  .action-buttons .update-button,
+  .action-buttons .delete-button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Update button styling */
+  .update-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+  }
+  
+  .update-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Delete button styling */
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Styling for Create New Toy button */
+  .create-toy-button1 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 15px;
+  }
+  
+  .create-toy-button1:hover {
+    background-color: #0461c4;
+  }
+  

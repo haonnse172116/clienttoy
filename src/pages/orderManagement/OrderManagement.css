@@ -1,0 +1,70 @@
+.order-management-container {
+    padding: 20px;
+  }
+  
+  .orders-table {
+    width: 100%;
+    border-collapse: separate; /* Separate for rounded borders */
+    border-spacing: 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .orders-table th {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .orders-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .orders-table tr:hover {
+    background-color: #e0f7fa;
+  }
+  
+  .orders-table td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .approve-button {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .approve-button:hover {
+    background-color: #388e3c;
+  }
+  
+  .approve-button:focus {
+    outline: none;
+    background-color: #2e7d32;
+  }
+  
+  .orders-table th:first-child,
+  .orders-table td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .orders-table th:last-child,
+  .orders-table td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
